@@ -40,5 +40,5 @@ def test_slow_calculator():
         driver.quit()
 
 
-if name == "main":
+if __name__ == "__main__":
     test_slow_calculator()
