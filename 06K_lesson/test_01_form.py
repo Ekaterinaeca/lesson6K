@@ -48,5 +48,5 @@ def test_form_validation():
         driver.quit()
 
 
-if name == "main":
+if __name__ == "__main__":
     test_form_validation()
