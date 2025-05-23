@@ -43,5 +43,5 @@ def test_sauce_demo_purchase():
         driver.quit()
 
 
-if name == "main":
+if __name__ == "__main__":
     test_sauce_demo_purchase()
